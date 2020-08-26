@@ -6,10 +6,10 @@ namespace GeometryObjects {
     
     public class Quadrillateral {
 
-        public int side1 { get; set; }
-        public int side2 { get; set; }
-        public int side3 { get; set; }
-        public int side4 { get; set; }
+        protected int side1 { get; set; }
+        protected int side2 { get; set; }
+        protected int side3 { get; set; }
+        protected int side4 { get; set; }
 
         public void Perimeter() {
             var perimeter = side1 + side2 + side3 + side4;
